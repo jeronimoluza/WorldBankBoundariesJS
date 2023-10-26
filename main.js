@@ -20,7 +20,7 @@ function roundToDecimalPlaces(num, decimalPlaces) {
 }
 
 info.update = function (props) {
-    let contents = 'Hover over a country for detailed<br>World Bank information.<br>Click to center!';
+    let contents = 'Hover over a country for detailed<br>information from the World Bank.<br>Click to center!';
 
     if (props) {
         contents = `<h4>Country Information</h4>
@@ -136,7 +136,8 @@ const EconomyFilterControl = L.Control.extend({
     onAdd: function(map) {
         const div = L.DomUtil.create('div', 'filter-control');
         div.innerHTML = `
-            <label for="economy-filter">Select Economy:</label>
+            <h3>Select Economy Type</h3>
+            <label for="economy-filter"></label>
             <select id="economy-filter">
                 <option value="all">All Economies</option>
                 ${uniqueEconomies.map(economy => `<option value="${economy}">${economy}</option>`).join('')}
