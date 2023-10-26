@@ -155,6 +155,9 @@ const economyFilter = document.getElementById('economy-filter');
 
 // Event listener for dropdown change
 economyFilter.addEventListener('change', function () {
+
+    map.setView([20, 0], 2);
+
     map.eachLayer(function (layer) {
         if (layer !== tiles) {
             map.removeLayer(layer);
