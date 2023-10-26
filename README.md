@@ -1,10 +1,10 @@
-**Readme: World Bank Boundaries Web Map**
+# **World Bank Boundaries Web Map**
 
-**Overview:**
+## **Overview:**
 
-This JavaScript application is designed to visualize data from the World Bank Boundaries using Leaflet, a leading open-source JavaScript library for interactive maps. The purpose of this map is to fulfill the requirements of the final project for GEOG 863.
+This JavaScript application is designed to visualize data from the World Bank Boundaries using Leaflet as the final project for GEOG 863.
 
-**Features:**
+## **Features:**
 
 1. **Interactive Map Display:**
 
