@@ -2,7 +2,7 @@
 
 ## **Overview:**
 
-This JavaScript application is designed to visualize data from the World Bank Boundaries using Leaflet as the final project for GEOG 863.
+This JavaScript application is designed to visualize data from the World Bank Boundaries using Leaflet.
 
 ## **Features:**
 
